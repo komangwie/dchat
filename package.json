@@ -1,0 +1,30 @@
+{
+  "name": "DChat",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.8.0",
+    "react": "16.5.0",
+    "react-native": "0.57.0",
+    "react-native-drawer": "^2.5.0",
+    "react-native-image-crop-picker": "^0.21.1",
+    "react-native-image-gallery": "^2.1.5",
+    "react-native-image-resizer": "^1.0.0",
+    "react-native-simple-radio-button": "^2.7.2",
+    "react-navigation": "^2.14.2",
+    "rn-fetch-blob": "^0.10.13"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.45.3",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
